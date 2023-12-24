@@ -80,11 +80,11 @@ const ContactForm = () => {
           <div className="writeup">
             <h5>GET A FREE COPY OF OUR E-BOOK</h5>
 
-            <h1>Download The Top 10 List of Best Gym Wears for Men & Women</h1>
+            <h1>Download The Top 10 List of Best Gym Wears for Men & Women.</h1>
 
             <p>
-              Including Does & Don't For Gym Wears <br />
-              Secret Check-List For the Perfect Gym Wears
+              Including Does & Don't For Gym Wears, <br />
+              Secret Check-List For the Perfect Gym Wears.
             </p>
           </div>
           <form onSubmit={handleSubmit} id="ebook">
