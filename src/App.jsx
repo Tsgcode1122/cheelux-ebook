@@ -1,0 +1,18 @@
+import React from "react";
+import LandingPage from "./pages/landingPage";
+import ContactForm from "./component/ContactForm";
+import Navbars from "./component/Navbar";
+import Footer from "./component/Footer";
+
+const App = () => {
+  return (
+    <>
+      <Navbars />
+      <LandingPage />
+      <ContactForm />
+      <Footer />
+    </>
+  );
+};
+
+export default App;
