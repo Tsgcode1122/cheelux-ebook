@@ -1,5 +1,6 @@
 import React from "react";
-import LandingPage from "./pages/LandingPage";
+
+import LandingPage from "./component/LandingPage";
 import ContactForm from "./component/ContactForm";
 import Navbars from "./component/Navbar";
 import Footer from "./component/Footer";
