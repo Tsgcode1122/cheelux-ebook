@@ -25,7 +25,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://formspree.io/f/xnqkdolz", {
+      const response = await fetch("https://formspree.io/f/xdoqnyvj", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -66,7 +66,7 @@ const ContactForm = () => {
               10 Ways to Magnificently Dress To The Gym.
             </li>
             <li className="left-right">
-              What You Should NEVER Wear TO the Gym.
+              What You Should NEVER Wear To the Gym.
             </li>
           </ul>
           <div className="view-img">
