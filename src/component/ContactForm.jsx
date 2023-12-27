@@ -61,7 +61,7 @@ const ContactForm = () => {
         <div className="contact-view">
           <h3>OVERVIEW</h3>
           <ul>
-            <li className="left-right">The Perfect Gym Wear Check-List.</li>
+            <li className="left-right">The Secret Gym Wear Check-List.</li>
             <li className="left-right">
               10 Ways to Magnificently Dress To The Gym.
             </li>

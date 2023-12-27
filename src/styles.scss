@@ -7,7 +7,7 @@ $HomeSmallSize-font: 22px;
 $HomeBig-font: 35px;
 $HomeBigger-font: 50px;
 $primary-color: #f8f9fa;
-$secondary-color: #8d0114;
+$secondary-color: #f90223;
 $bright-color: #df011e;
 $font-family: "Gelasio", serif;
 $font-article: "Barlow", sans-serif;
@@ -115,17 +115,17 @@ body {
     padding: 1rem 0.1rem 0.1rem 0.1rem;
     border-radius: 3rem;
     border: 0.1px solid #e49e43;
-    background-color: $secondary-color;
+    background: url(./images/background.png) center/cover;
   }
   .Contact-form {
-    background: url(./images/background.png) center/cover;
+    background-color: $bright-color;
     margin: 2rem;
     border: 2px solid #e49e43;
     border-radius: 3rem;
     text-align: center;
     color: $primary-color;
     padding: 2rem;
-    background-color: $secondary-color;
+
     box-shadow:
       0 2px 30px rgba(0, 0, 0, 0.1),
       0 10px 20px rgba(0, 0, 0, 0.1);
@@ -192,7 +192,7 @@ body {
           }
         }
         ::placeholder {
-          opacity: 0.4;
+          opacity: 0.6;
           font-style: italic;
         }
       }
@@ -343,14 +343,13 @@ body {
       }
     }
     .Contact-form {
-      background: url(./images/background.png) center/cover;
       margin: 1rem;
       border: 2px solid #e49e43;
       border-radius: 3rem;
       text-align: center;
       color: $primary-color;
       padding: 1rem;
-      background-color: $secondary-color;
+
       box-shadow:
         0 2px 30px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.1);
@@ -571,14 +570,13 @@ body {
       }
     }
     .Contact-form {
-      background: url(./images/background.png) center/cover;
       margin: 1rem;
       border: 2px solid #e49e43;
       border-radius: 3rem;
       text-align: center;
       color: $primary-color;
       padding: 1rem;
-      background-color: $secondary-color;
+
       box-shadow:
         0 2px 30px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.1);
@@ -799,14 +797,13 @@ body {
       }
     }
     .Contact-form {
-      background: url(./images/background.png) center/cover;
       margin: 1.5rem;
       border: 2px solid #e49e43;
       border-radius: 3rem;
       text-align: center;
       color: $primary-color;
       padding: 1.5rem;
-      background-color: $secondary-color;
+
       box-shadow:
         0 2px 30px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.1);
@@ -1307,14 +1304,13 @@ body {
     }
     .Contact-form {
       margin: 6rem 6rem 0rem;
-      background: url(./images/background.png) center/cover;
 
       border: 2px solid #e49e43;
       border-radius: 3rem;
       text-align: center;
       color: $primary-color;
       padding: 2rem;
-      background-color: $secondary-color;
+
       box-shadow:
         0 2px 30px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.1);
@@ -1482,14 +1478,14 @@ body {
     }
     .Contact-form {
       margin: 6rem 6rem 0rem;
-      background: url(./images/background.png) center/cover;
+
       // max-width: 600px;
       border: 2px solid #e49e43;
       border-radius: 3rem;
       text-align: center;
       color: $primary-color;
       padding: 2rem;
-      background-color: $secondary-color;
+
       box-shadow:
         0 2px 30px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.1);
@@ -1654,14 +1650,14 @@ body {
     }
     .Contact-form {
       margin: 6rem 6rem 0rem;
-      background: url(./images/background.png) center/cover;
+
       // max-width: 600px;
       border: 2px solid #e49e43;
       border-radius: 3rem;
       text-align: center;
       color: $primary-color;
       padding: 2rem 4rem 2rem 4rem;
-      background-color: $secondary-color;
+
       box-shadow:
         0 2px 30px rgba(0, 0, 0, 0.1),
         0 10px 20px rgba(0, 0, 0, 0.1);
