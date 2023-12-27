@@ -18,24 +18,29 @@ const LandingPage = () => {
           <h1 className="bounce-in">Unlock Your Fitness Potential</h1>
           <p>Discover the Ultimate Guide to Stylish and Functional Gym Wear.</p>
           <a href="#ebook">
-            <button>Get Your Free Ebook</button>
+            <button>Get Your FREE Ebook</button>
           </a>
           <div>
             <img src={downArrow} className="down-arrow" />
           </div>
         </div>
-
-        <Carousel fade>
-          <Carousel.Item className="img">
-            <img src={img1} />
-          </Carousel.Item>
-          <Carousel.Item className="img">
-            <img src={img2} />
-          </Carousel.Item>
-          <Carousel.Item className="img">
-            <img src={img3} />
-          </Carousel.Item>
-        </Carousel>
+        <a
+          href="https://www.cheelux.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Carousel fade>
+            <Carousel.Item className="img">
+              <img src={img1} />
+            </Carousel.Item>
+            <Carousel.Item className="img">
+              <img src={img2} />
+            </Carousel.Item>
+            <Carousel.Item className="img">
+              <img src={img3} />
+            </Carousel.Item>
+          </Carousel>
+        </a>
       </section>
     </>
   );

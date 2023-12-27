@@ -7,7 +7,7 @@ $HomeSmallSize-font: 22px;
 $HomeBig-font: 35px;
 $HomeBigger-font: 50px;
 $primary-color: #f8f9fa;
-$secondary-color: #a91d30;
+$secondary-color: #8d0114;
 $bright-color: #df011e;
 $font-family: "Gelasio", serif;
 $font-article: "Barlow", sans-serif;
@@ -48,6 +48,7 @@ body {
   text-align: center;
   h1 {
     font-size: 42px;
+    font-weight: bolder;
   }
   img {
     margin-top: 1rem;
@@ -85,7 +86,7 @@ body {
     h3 {
       text-align: center;
       position: relative;
-
+      font-weight: bolder;
       &:after {
         content: "";
         display: block;
@@ -110,6 +111,12 @@ body {
       }
     }
   }
+  .redd {
+    padding: 1rem 0.1rem 0.1rem 0.1rem;
+    border-radius: 3rem;
+    border: 0.1px solid #e49e43;
+    background-color: $secondary-color;
+  }
   .Contact-form {
     background: url(./images/background.png) center/cover;
     margin: 2rem;
@@ -130,9 +137,11 @@ body {
         display: inline;
         border-radius: 10px;
         padding: 0 10px;
+        font-weight: 600;
       }
       h1 {
         margin: 1rem 0 1rem 0;
+        font-weight: bolder;
       }
       p {
       }
@@ -140,7 +149,7 @@ body {
     form {
       display: grid;
       gap: 20px;
-      backdrop-filter: blur(290px);
+      // backdrop-filter: blur(290px);
       padding: 1rem;
       div {
         display: flex;
@@ -183,7 +192,7 @@ body {
           }
         }
         ::placeholder {
-          opacity: 0.2;
+          opacity: 0.4;
           font-style: italic;
         }
       }
@@ -366,7 +375,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 1rem;
         p {
           font-size: 12px;
@@ -410,10 +419,6 @@ body {
             &:hover {
               background-color: $secondary-color;
             }
-          }
-          ::placeholder {
-            opacity: 0.2;
-            font-style: italic;
           }
         }
       }
@@ -598,7 +603,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 1rem;
         p {
           font-size: 12px;
@@ -642,10 +647,6 @@ body {
             &:hover {
               background-color: $secondary-color;
             }
-          }
-          ::placeholder {
-            opacity: 0.2;
-            font-style: italic;
           }
         }
       }
@@ -830,7 +831,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 1rem;
         p {
           font-size: 15px;
@@ -874,10 +875,6 @@ body {
             &:hover {
               background-color: $secondary-color;
             }
-          }
-          ::placeholder {
-            opacity: 0.2;
-            font-style: italic;
           }
         }
       }
@@ -1024,7 +1021,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 1rem;
         div {
           display: flex;
@@ -1160,7 +1157,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 1rem;
         div {
           display: flex;
@@ -1337,7 +1334,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 1rem;
         div {
           display: flex;
@@ -1512,7 +1509,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 0 3rem;
         div {
           display: flex;
@@ -1684,7 +1681,7 @@ body {
       form {
         display: grid;
         gap: 20px;
-        backdrop-filter: blur(290px);
+
         padding: 0 3rem;
         div {
           display: flex;
