@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import "../styles.scss";
 import eimg from "../images/1.png";
 import eimg1 from "../images/iiii.png";
+import sup from "../images/super.png";
 import useZoomInAnimation from "../animation/useZoomInAnimation";
 import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
 const ContactForm = () => {
@@ -13,6 +15,10 @@ const ContactForm = () => {
     email: "",
   });
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -42,11 +48,8 @@ const ContactForm = () => {
         });
         // Show the success message
         setShowSuccessMessage(true);
-
+        setShow(true);
         // Hide the success message after a few seconds
-        setTimeout(() => {
-          setShowSuccessMessage(false);
-        }, 10000);
       } else {
         console.error("Form submission failed. Please try again.");
       }
@@ -125,9 +128,38 @@ const ContactForm = () => {
 
             {showSuccessMessage && (
               <div className="success-message">
-                🎉 Success! Your perfect gym wear ebook is on its way to your
-                inbox. Get ready to elevate your fitness journey with style and
-                performance. Stay active, stay stylish!
+                <>
+                  <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>🎉 Success!</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <div className="success-edit">
+                        <div>
+                          Your perfect gym wear ebook is on its way to your
+                          inbox. Get ready to elevate your fitness journey with
+                          style and performance. Stay active, stay stylish!
+                        </div>
+                        <img src={sup} />
+                        <h3>GET 25% OFF!</h3>
+
+                        <p>HURRY!! UP TO 25% OFF ON GYM WEARS </p>
+                        <p>FREE SHIPPING for all orders above N100,000 </p>
+                        <p>
+                          Valid till <span>25 Jan 2024</span>
+                        </p>
+                        <a
+                          href="https://www.cheelux.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Click to ORDER NOW!!!
+                        </a>
+                      </div>
+                    </Modal.Body>
+                    <Modal.Footer></Modal.Footer>
+                  </Modal>
+                </>
               </div>
             )}
           </div>
