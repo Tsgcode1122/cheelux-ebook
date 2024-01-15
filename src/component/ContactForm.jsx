@@ -144,7 +144,7 @@ const ContactForm = () => {
                         <h3>GET 25% OFF!</h3>
 
                         <p>HURRY!! UP TO 25% OFF ON GYM WEARS </p>
-                        <p>FREE SHIPPING for all orders above N100,000 </p>
+                        <p>Enjoy FREE SHIPPING on your first order! </p>
                         <p>
                           Valid till <span>25 Jan 2024</span>
                         </p>
