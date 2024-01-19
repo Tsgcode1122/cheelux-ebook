@@ -71,10 +71,10 @@
   }
 }
 .zoom-ins {
-  animation: zoomIn 1.8s ease-in-out infinite;
+  animation: zoomIns 1.8s ease-in-out infinite;
   transform: scale(1);
 }
-@keyframes zoomIn {
+@keyframes zoomIns {
   0% {
     transform: scale(0.9);
   }
