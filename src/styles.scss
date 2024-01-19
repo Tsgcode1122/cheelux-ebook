@@ -133,11 +133,12 @@ body {
 
     .writeup {
       h5 {
-        background: rgb(39, 38, 38);
+        background: rgb(39, 38, 38, 0.7);
         display: inline;
         border-radius: 10px;
         padding: 0 10px;
-        font-weight: 600;
+        font-weight: 500;
+        font-size: 18px;
       }
       h1 {
         margin: 1rem 0 1rem 0;
@@ -288,6 +289,9 @@ body {
     }
   }
 }
+.gappy {
+  margin-bottom: -1rem;
+}
 // -----------------------media ------
 @media screen and (max-width: 320px) {
   .logo img {
@@ -405,11 +409,11 @@ body {
 
       .writeup {
         h5 {
-          background: rgb(39, 38, 38);
+          background: rgb(39, 38, 38, 0.7);
           display: inline;
           border-radius: 10px;
           padding: 5px 15px;
-          font-size: 13px;
+          font-size: 12px;
         }
         h1 {
           margin: 1rem 0 1rem 0;
@@ -441,7 +445,7 @@ body {
             margin-top: 1rem;
             margin-left: 0rem;
             margin-right: 0rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem;
           }
 
           input,
@@ -647,11 +651,11 @@ body {
 
       .writeup {
         h5 {
-          background: rgb(39, 38, 38);
+          background: rgb(39, 38, 38, 0.7);
           display: inline;
           border-radius: 10px;
           padding: 5px 15px;
-          font-size: 13px;
+          font-size: 12px;
         }
         h1 {
           margin: 1rem 0 1rem 0;
@@ -889,11 +893,11 @@ body {
 
       .writeup {
         h5 {
-          background: rgb(39, 38, 38);
+          background: rgb(39, 38, 38, 0.7);
           display: inline;
           border-radius: 10px;
           padding: 5px 15px;
-          font-size: 15px;
+          font-size: 14px;
         }
         h1 {
           margin: 1rem 0 1rem 0;

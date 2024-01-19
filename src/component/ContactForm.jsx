@@ -95,7 +95,7 @@ const ContactForm = () => {
               </p>
             </div>
             <form onSubmit={handleSubmit} id="ebook">
-              <div>
+              <div className="gappy">
                 <label htmlFor="name">Your Name:</label>
                 <input
                   type="text"
@@ -121,7 +121,7 @@ const ContactForm = () => {
               </div>
 
               <div>
-                <button type="submit">Get the FREE Ebook</button>
+                <button type="submit">Get the FREE Ebook!</button>
               </div>
               <p>Usually $50. Download FREE Only Today!</p>
             </form>
