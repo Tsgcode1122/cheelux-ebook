@@ -7,6 +7,7 @@ import downArrow from "../images/down-arrow.png";
 import useBounceIn from "../animation/ useBounceIn";
 import useMoveUpDown from "../animation/useMoveUpDown";
 import useBottomToTopSwipe from "../animation/useBottomToTopSwipe";
+import { TfiGift } from "react-icons/tfi";
 import "../styles.scss";
 const LandingPage = () => {
   useBottomToTopSwipe(".bounce-in");
@@ -24,23 +25,45 @@ const LandingPage = () => {
             <img src={downArrow} className="down-arrow" />
           </div>
         </div>
-        <a
-          href="https://www.cheelux.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Carousel fade>
-            <Carousel.Item className="img">
-              <img src={img1} />
-            </Carousel.Item>
-            <Carousel.Item className="img">
-              <img src={img2} />
-            </Carousel.Item>
-            <Carousel.Item className="img">
-              <img src={img3} />
-            </Carousel.Item>
-          </Carousel>
-        </a>
+        <div>
+          <a
+            href="https://www.cheelux.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Carousel fade>
+              <Carousel.Item className="img">
+                <img src={img1} />
+              </Carousel.Item>
+              <Carousel.Item className="img">
+                <img src={img2} />
+              </Carousel.Item>
+              <Carousel.Item className="img">
+                <img src={img3} />
+              </Carousel.Item>
+            </Carousel>
+          </a>
+          <section className="hurrysection ">
+            <div className="hurryback zoom-ins">
+              <article>
+                <TfiGift /> <span>Hurry!</span>, Up to <span>25% OFF</span> ON
+                ALL GYM WEARS
+              </article>
+              <article>
+                Enjoy <span>FREE SHIPPING</span> on your first order!
+              </article>
+              <article>
+                <a
+                  href="https://www.cheelux.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click to Order Now!!!
+                </a>
+              </article>
+            </div>
+          </section>
+        </div>
       </section>
     </>
   );
