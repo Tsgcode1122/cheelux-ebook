@@ -82,11 +82,11 @@
     transform: scale(0.8);
   }
   100% {
-    transform: scale(0.9);
+    transform: scale(0.91);
   }
 }
 
-// _animations.scss
+// animations.scss
 .move-up-down {
   animation: moveUpDown 1s infinite alternate;
 }
