@@ -8,9 +8,9 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={<Navigate to="/EBook" />} // Redirect to /EBook when accessing root path
+          element={<Navigate to="/Ebook" />} // Redirect to /EBook when accessing root path
         />
-        <Route path="/EBook" element={<Ebook />} />
+        <Route path="/Ebook" element={<Ebook />} />
       </Routes>
     </BrowserRouter>
   );
