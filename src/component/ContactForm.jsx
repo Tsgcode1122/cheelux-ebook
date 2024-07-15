@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "../styles.scss";
-import eimg from "../images/1.png";
+import eimg from "../images/12.png";
 import eimg1 from "../images/iiii.png";
 import sup from "../images/super.png";
 import useZoomInAnimation from "../animation/useZoomInAnimation";
