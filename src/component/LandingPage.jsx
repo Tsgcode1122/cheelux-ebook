@@ -19,7 +19,7 @@ const LandingPage = () => {
           <h1 className="bounce-in">Unlock Your Fitness Potential</h1>
           <p>Discover the Ultimate Guide to Stylish and Functional Gym Wear.</p>
           <a href="#ebook">
-            <button>Get Your FREE Ebook</button>
+            <button>FIND Out Now!!!</button>
           </a>
           <div>
             <img src={downArrow} className="down-arrow" />
